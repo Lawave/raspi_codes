@@ -1,0 +1,201 @@
+15:37:39.294 [MainThread] INFO    thonny: Thonny version: 4.1.4
+15:37:39.294 [MainThread] INFO    thonny: cwd: /home/javid/.config/Thonny/leave_this_empty
+15:37:39.295 [MainThread] INFO    thonny: original argv: ['/usr/bin/python3', '-u', '-B', '/usr/lib/python3/dist-packages/thonny/plugins/cpython_backend/cp_launcher.py', '/home/javid/myenv', "{'run.warn_module_shadowing': True}"]
+15:37:39.295 [MainThread] INFO    thonny: sys.executable: /usr/bin/python3
+15:37:39.295 [MainThread] INFO    thonny: sys.argv: ['/usr/lib/python3/dist-packages/thonny/plugins/cpython_backend/cp_launcher.py', '/home/javid/myenv', "{'run.warn_module_shadowing': True}"]
+15:37:39.296 [MainThread] INFO    thonny: sys.path: ['/usr/lib/python3/dist-packages/thonny/plugins/cpython_backend', '/usr/lib/python311.zip', '/usr/lib/python3.11', '/usr/lib/python3.11/lib-dynload', '/usr/local/lib/python3.11/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3.11/dist-packages']
+15:37:39.296 [MainThread] INFO    thonny: sys.flags: sys.flags(debug=0, inspect=0, interactive=0, optimize=0, dont_write_bytecode=1, no_user_site=0, no_site=0, ignore_environment=0, verbose=0, bytes_warning=0, quiet=0, hash_randomization=1, isolated=0, dev_mode=False, utf8_mode=0, warn_default_encoding=0, safe_path=False, int_max_str_digits=-1)
+15:37:39.297 [MainThread] INFO    thonny: TIME/MODS 1.313 Before constructing backend (+26 modules)
+15:37:39.298 [MainThread] INFO    thonny: NEW MODS ['_heapq', '_locale', '_posixsubprocess', '_queue', 'encodings.ascii', 'errno', 'faulthandler', 'fcntl', 'fnmatch', 'heapq', 'ipaddress', 'locale', 'math', 'ntpath', 'pathlib', 'queue', 'select', 'selectors', 'signal', 'subprocess', 'thonny.backend', 'thonny.plugins', 'thonny.plugins.cpython_backend', 'thonny.plugins.cpython_backend.cp_back', 'urllib', 'urllib.parse']
+15:37:39.298 [MainThread] INFO    thonny: TIME/MODS 0.001 Before MainBackend 
+15:37:39.299 [MainThread] INFO    thonny: TIME/MODS 0.000 After MainBackend 
+15:37:40.016 [MainThread] INFO    thonny.backend: Loading plugins
+15:37:40.016 [MainThread] INFO    thonny: TIME/MODS 0.717 Before loading plugins (+6 modules)
+15:37:40.017 [MainThread] INFO    thonny: NEW MODS ['__future__', '_sysconfigdata__aarch64-linux-gnu', 'pkgutil', 'platform', 'pydoc', 'sysconfig']
+15:37:40.017 [MainThread] INFO    thonny.common: Using THONNY_FRONTEND_SYS_PATH ['/usr/bin', '/usr/lib/python311.zip', '/usr/lib/python3.11', '/usr/lib/python3.11/lib-dynload', '/usr/local/lib/python3.11/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3.11/dist-packages', '/home/javid/.config/Thonny/plugins/lib/python3.11/site-packages']
+15:37:40.158 [MainThread] INFO    thonny.backend: Loading plugin 'thonny.plugins.backend.birdseye_backend'
+15:37:40.180 [MainThread] INFO    thonny.backend: Loading plugin 'thonny.plugins.backend.dock_user_windows_backend'
+15:37:40.192 [MainThread] INFO    thonny.backend: Loading plugin 'thonny.plugins.backend.flask_backend'
+15:37:40.215 [MainThread] INFO    thonny.backend: Loading plugin 'thonny.plugins.backend.matplotlib_backend'
+15:37:40.236 [MainThread] INFO    thonny.backend: Loading plugin 'thonny.plugins.backend.pgzero_backend'
+15:37:40.333 [MainThread] INFO    thonny: TIME/MODS 0.317 After loading plugins (+6 modules)
+15:37:40.334 [MainThread] INFO    thonny: NEW MODS ['thonny.plugins.backend', 'thonny.plugins.backend.birdseye_backend', 'thonny.plugins.backend.dock_user_windows_backend', 'thonny.plugins.backend.flask_backend', 'thonny.plugins.backend.matplotlib_backend', 'thonny.plugins.backend.pgzero_backend']
+15:37:40.381 [MainThread] INFO    thonny: TIME/MODS 0.048 Beginning of mainloop 
+15:37:41.475 [MainThread] INFO    thonny: TIME/MODS 1.094 Sending message ToplevelResponse 
+15:37:41.476 [MainThread] INFO    thonny.backend: Loading Jedi
+15:37:41.476 [MainThread] INFO    thonny: TIME/MODS 0.002 Before loading Jedi 
+15:37:41.477 [MainThread] INFO    thonny.common: Using THONNY_FRONTEND_SYS_PATH ['/usr/bin', '/usr/lib/python311.zip', '/usr/lib/python3.11', '/usr/lib/python3.11/lib-dynload', '/usr/local/lib/python3.11/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3.11/dist-packages', '/home/javid/.config/Thonny/plugins/lib/python3.11/site-packages']
+15:37:50.232 [MainThread] INFO    thonny: TIME/MODS 8.741 After loading Jedi (+133 modules)
+15:37:50.263 [MainThread] INFO    thonny: NEW MODS ['_blake2', '_bz2', '_compat_pickle', '_compression', '_ctypes', '_hashlib', '_json', '_lzma', '_pickle', '_struct', 'binascii', 'bz2', 'colorama', 'colorama.ansi', 'colorama.ansitowin32', 'colorama.initialise', 'colorama.win32', 'colorama.winterm', 'ctypes', 'ctypes._endian', 'difflib', 'filecmp', 'gc', 'hashlib', 'jedi', 'jedi._compatibility', 'jedi.api', 'jedi.api.classes', 'jedi.api.completion', 'jedi.api.completion_cache', 'jedi.api.environment', 'jedi.api.errors', 'jedi.api.exceptions', 'jedi.api.file_name', 'jedi.api.helpers', 'jedi.api.interpreter', 'jedi.api.keywords', 'jedi.api.project', 'jedi.api.refactoring', 'jedi.api.refactoring.extract', 'jedi.api.strings', 'jedi.cache', 'jedi.common', 'jedi.debug', 'jedi.file_io', 'jedi.inference', 'jedi.inference.analysis', 'jedi.inference.arguments', 'jedi.inference.base_value', 'jedi.inference.cache', 'jedi.inference.compiled', 'jedi.inference.compiled.access', 'jedi.inference.compiled.getattr_static', 'jedi.inference.compiled.mixed', 'jedi.inference.compiled.subprocess', 'jedi.inference.compiled.subprocess.functions', 'jedi.inference.compiled.value', 'jedi.inference.context', 'jedi.inference.docstring_utils', 'jedi.inference.docstrings', 'jedi.inference.filters', 'jedi.inference.flow_analysis', 'jedi.inference.gradual', 'jedi.inference.gradual.annotation', 'jedi.inference.gradual.base', 'jedi.inference.gradual.conversion', 'jedi.inference.gradual.generics', 'jedi.inference.gradual.stub_value', 'jedi.inference.gradual.type_var', 'jedi.inference.gradual.typeshed', 'jedi.inference.gradual.typing', 'jedi.inference.gradual.utils', 'jedi.inference.helpers', 'jedi.inference.imports', 'jedi.inference.lazy_value', 'jedi.inference.names', 'jedi.inference.param', 'jedi.inference.parser_cache', 'jedi.inference.recursion', 'jedi.inference.references', 'jedi.inference.signature', 'jedi.inference.syntax_tree', 'jedi.inference.sys_path', 'jedi.inference.utils', 'jedi.inference.value', 'jedi.inference.value.decorator', 'jedi.inference.value.dynamic_arrays', 'jedi.inference.value.function', 'jedi.inference.value.instance', 'jedi.inference.value.iterable', 'jedi.inference.value.klass', 'jedi.inference.value.module', 'jedi.parser_utils', 'jedi.plugins', 'jedi.plugins.django', 'jedi.plugins.flask', 'jedi.plugins.pytest', 'jedi.plugins.registry', 'jedi.plugins.stdlib', 'jedi.settings', 'json', 'json.decoder', 'json.encoder', 'json.scanner', 'lzma', 'parso', 'parso._compatibility', 'parso.cache', 'parso.file_io', 'parso.grammar', 'parso.normalizer', 'parso.parser', 'parso.pgen2', 'parso.pgen2.generator', 'parso.pgen2.grammar_parser', 'parso.python', 'parso.python.diff', 'parso.python.errors', 'parso.python.parser', 'parso.python.pep8', 'parso.python.prefix', 'parso.python.token', 'parso.python.tokenize', 'parso.python.tree', 'parso.tree', 'parso.utils', 'pickle', 'pydoc_data', 'pydoc_data.topics', 'shutil', 'struct', 'zipfile', 'zlib']
+15:39:35.220 [MainThread] INFO    thonny: TIME/MODS 104.994 Sending message highlight_occurrences_response (+1 modules)
+15:39:35.236 [MainThread] INFO    thonny: NEW MODS ['thonny.jedi_utils']
+15:39:44.195 [MainThread] INFO    thonny: TIME/MODS 8.983 Sending message highlight_occurrences_response 
+15:39:45.371 [MainThread] INFO    thonny: TIME/MODS 1.176 Sending message highlight_occurrences_response 
+15:39:48.075 [MainThread] INFO    thonny: TIME/MODS 2.705 Sending message highlight_occurrences_response 
+15:39:49.640 [MainThread] INFO    thonny: TIME/MODS 1.565 Sending message highlight_occurrences_response 
+15:39:53.599 [MainThread] INFO    thonny: TIME/MODS 3.959 Sending message highlight_occurrences_response 
+15:39:54.043 [MainThread] INFO    thonny: TIME/MODS 0.444 Sending message highlight_occurrences_response 
+15:39:54.847 [MainThread] INFO    thonny: TIME/MODS 0.805 Sending message highlight_occurrences_response 
+15:39:57.789 [MainThread] INFO    thonny: TIME/MODS 2.941 Sending message highlight_occurrences_response 
+15:40:34.660 [MainThread] INFO    thonny: TIME/MODS 36.871 Sending message highlight_occurrences_response 
+15:42:59.400 [MainThread] INFO    thonny: TIME/MODS 144.740 Sending message highlight_occurrences_response 
+15:43:02.584 [MainThread] INFO    thonny: TIME/MODS 3.184 Sending message highlight_occurrences_response 
+15:43:03.303 [MainThread] INFO    thonny: TIME/MODS 0.719 Sending message highlight_occurrences_response 
+15:43:04.788 [MainThread] INFO    thonny: TIME/MODS 1.485 Sending message highlight_occurrences_response 
+15:43:15.227 [MainThread] INFO    thonny: TIME/MODS 10.439 Sending message highlight_occurrences_response 
+15:43:17.298 [MainThread] INFO    thonny: TIME/MODS 2.071 Sending message highlight_occurrences_response 
+15:43:28.785 [MainThread] INFO    thonny: TIME/MODS 11.487 Sending message highlight_occurrences_response 
+15:43:30.815 [MainThread] INFO    thonny: TIME/MODS 2.030 Sending message highlight_occurrences_response 
+15:43:31.538 [MainThread] INFO    thonny: TIME/MODS 0.723 Sending message highlight_occurrences_response 
+15:43:36.857 [MainThread] INFO    thonny: TIME/MODS 5.319 Sending message highlight_occurrences_response (+1 modules)
+15:43:36.879 [MainThread] INFO    thonny: NEW MODS ['jedi.inference.finder']
+15:43:36.957 [MainThread] INFO    thonny: TIME/MODS 0.100 Sending message highlight_occurrences_response 
+15:43:37.586 [MainThread] INFO    thonny: TIME/MODS 0.629 Sending message highlight_occurrences_response 
+15:43:40.874 [MainThread] INFO    thonny: TIME/MODS 3.288 Sending message highlight_occurrences_response 
+15:43:42.812 [MainThread] INFO    thonny: TIME/MODS 1.938 Sending message highlight_occurrences_response 
+15:43:44.418 [MainThread] INFO    thonny: TIME/MODS 1.606 Sending message highlight_occurrences_response 
+15:43:44.881 [MainThread] INFO    thonny: TIME/MODS 0.463 Sending message highlight_occurrences_response 
+15:43:46.284 [MainThread] INFO    thonny: TIME/MODS 1.403 Sending message highlight_occurrences_response 
+15:43:47.128 [MainThread] INFO    thonny: TIME/MODS 0.844 Sending message highlight_occurrences_response 
+15:43:47.503 [MainThread] INFO    thonny: TIME/MODS 0.375 Sending message highlight_occurrences_response 
+15:43:47.838 [MainThread] INFO    thonny: TIME/MODS 0.334 Sending message highlight_occurrences_response 
+15:43:48.657 [MainThread] INFO    thonny: TIME/MODS 0.820 Sending message highlight_occurrences_response 
+15:43:49.457 [MainThread] INFO    thonny: TIME/MODS 0.800 Sending message highlight_occurrences_response 
+15:43:50.132 [MainThread] INFO    thonny: TIME/MODS 0.675 Sending message highlight_occurrences_response 
+15:43:53.223 [MainThread] INFO    thonny: TIME/MODS 3.091 Sending message highlight_occurrences_response 
+15:43:56.532 [MainThread] INFO    thonny: TIME/MODS 3.309 Sending message highlight_occurrences_response 
+15:43:56.893 [MainThread] INFO    thonny: TIME/MODS 0.361 Sending message highlight_occurrences_response 
+15:43:58.178 [MainThread] INFO    thonny: TIME/MODS 1.286 Sending message highlight_occurrences_response 
+15:44:01.593 [MainThread] INFO    thonny: TIME/MODS 3.415 Sending message highlight_occurrences_response 
+15:44:04.598 [MainThread] INFO    thonny: TIME/MODS 3.005 Sending message highlight_occurrences_response 
+15:44:05.590 [MainThread] INFO    thonny: TIME/MODS 0.992 Sending message highlight_occurrences_response 
+15:44:06.577 [MainThread] INFO    thonny: TIME/MODS 0.987 Sending message highlight_occurrences_response 
+15:44:09.842 [MainThread] INFO    thonny: TIME/MODS 3.265 Sending message highlight_occurrences_response 
+15:44:13.153 [MainThread] INFO    thonny: TIME/MODS 3.312 Sending message highlight_occurrences_response 
+15:44:18.916 [MainThread] INFO    thonny: TIME/MODS 5.762 Sending message highlight_occurrences_response 
+15:44:20.362 [MainThread] INFO    thonny: TIME/MODS 1.446 Sending message highlight_occurrences_response 
+15:44:21.012 [MainThread] INFO    thonny: TIME/MODS 0.650 Sending message highlight_occurrences_response 
+15:44:23.529 [MainThread] INFO    thonny: TIME/MODS 2.517 Sending message highlight_occurrences_response 
+15:44:24.938 [MainThread] INFO    thonny: TIME/MODS 1.409 Sending message highlight_occurrences_response 
+15:44:25.385 [MainThread] INFO    thonny: TIME/MODS 0.447 Sending message highlight_occurrences_response 
+15:47:05.303 [MainThread] INFO    thonny: TIME/MODS 159.902 Sending message highlight_occurrences_response 
+15:49:47.287 [MainThread] INFO    thonny: TIME/MODS 161.987 Sending message highlight_occurrences_response 
+15:49:59.901 [MainThread] INFO    thonny: TIME/MODS 12.627 Sending message highlight_occurrences_response 
+15:51:05.543 [MainThread] INFO    thonny: TIME/MODS 65.642 Sending message highlight_occurrences_response 
+15:51:06.391 [MainThread] INFO    thonny: TIME/MODS 0.848 Sending message highlight_occurrences_response 
+15:51:08.068 [MainThread] INFO    thonny: TIME/MODS 1.678 Sending message highlight_occurrences_response 
+15:51:58.199 [MainThread] INFO    thonny: TIME/MODS 50.130 Sending message highlight_occurrences_response 
+15:53:07.897 [MainThread] INFO    thonny: TIME/MODS 69.699 Sending message highlight_occurrences_response 
+15:53:10.488 [MainThread] INFO    thonny: TIME/MODS 2.590 Sending message highlight_occurrences_response 
+15:53:15.825 [MainThread] INFO    thonny: TIME/MODS 5.337 Sending message highlight_occurrences_response 
+15:53:19.689 [MainThread] INFO    thonny: TIME/MODS 3.864 Sending message get_definitions_response 
+15:53:21.952 [MainThread] INFO    thonny: TIME/MODS 2.263 Sending message highlight_occurrences_response 
+15:53:22.740 [MainThread] INFO    thonny: TIME/MODS 0.788 Sending message highlight_occurrences_response 
+15:53:23.371 [MainThread] INFO    thonny: TIME/MODS 0.631 Sending message highlight_occurrences_response 
+15:53:41.128 [MainThread] INFO    thonny: TIME/MODS 17.757 Sending message highlight_occurrences_response 
+15:53:45.480 [MainThread] INFO    thonny: TIME/MODS 4.352 Sending message highlight_occurrences_response 
+15:53:45.533 [MainThread] INFO    thonny: TIME/MODS 0.054 Sending message highlight_occurrences_response 
+15:53:47.789 [MainThread] INFO    thonny: TIME/MODS 2.255 Sending message highlight_occurrences_response 
+15:53:47.842 [MainThread] INFO    thonny: TIME/MODS 0.053 Sending message highlight_occurrences_response 
+15:53:54.581 [MainThread] INFO    thonny: TIME/MODS 6.739 Sending message highlight_occurrences_response 
+15:53:55.525 [MainThread] INFO    thonny: TIME/MODS 0.944 Sending message highlight_occurrences_response 
+15:54:31.229 [MainThread] INFO    thonny: TIME/MODS 35.692 Sending message highlight_occurrences_response 
+15:54:36.203 [MainThread] INFO    thonny: TIME/MODS 4.986 Sending message highlight_occurrences_response 
+15:54:44.179 [MainThread] INFO    thonny: TIME/MODS 7.977 Sending message highlight_occurrences_response 
+15:55:20.986 [MainThread] INFO    thonny: TIME/MODS 36.806 Sending message highlight_occurrences_response 
+15:55:22.197 [MainThread] INFO    thonny: TIME/MODS 1.211 Sending message highlight_occurrences_response 
+15:55:22.854 [MainThread] INFO    thonny: TIME/MODS 0.657 Sending message highlight_occurrences_response 
+15:55:24.558 [MainThread] INFO    thonny: TIME/MODS 1.704 Sending message highlight_occurrences_response 
+15:55:25.860 [MainThread] INFO    thonny: TIME/MODS 1.301 Sending message highlight_occurrences_response 
+15:55:30.743 [MainThread] INFO    thonny: TIME/MODS 4.883 Sending message highlight_occurrences_response 
+15:55:31.395 [MainThread] INFO    thonny: TIME/MODS 0.652 Sending message highlight_occurrences_response 
+15:55:39.075 [MainThread] INFO    thonny: TIME/MODS 7.680 Sending message highlight_occurrences_response 
+15:55:40.641 [MainThread] INFO    thonny: TIME/MODS 1.566 Sending message highlight_occurrences_response 
+15:55:42.401 [MainThread] INFO    thonny: TIME/MODS 1.760 Sending message highlight_occurrences_response 
+15:55:43.669 [MainThread] INFO    thonny: TIME/MODS 1.267 Sending message highlight_occurrences_response 
+15:55:45.873 [MainThread] INFO    thonny: TIME/MODS 2.204 Sending message highlight_occurrences_response 
+15:55:46.204 [MainThread] INFO    thonny: TIME/MODS 0.331 Sending message highlight_occurrences_response 
+15:55:47.674 [MainThread] INFO    thonny: TIME/MODS 1.470 Sending message highlight_occurrences_response 
+15:55:48.175 [MainThread] INFO    thonny: TIME/MODS 0.501 Sending message highlight_occurrences_response 
+15:55:49.544 [MainThread] INFO    thonny: TIME/MODS 1.369 Sending message highlight_occurrences_response 
+15:55:50.725 [MainThread] INFO    thonny: TIME/MODS 1.181 Sending message highlight_occurrences_response 
+15:55:51.474 [MainThread] INFO    thonny: TIME/MODS 0.749 Sending message highlight_occurrences_response 
+15:56:06.158 [MainThread] INFO    thonny: TIME/MODS 14.684 Sending message highlight_occurrences_response 
+15:56:08.502 [MainThread] INFO    thonny: TIME/MODS 2.345 Sending message highlight_occurrences_response 
+15:56:15.485 [MainThread] INFO    thonny: TIME/MODS 6.983 Sending message highlight_occurrences_response 
+15:56:18.990 [MainThread] INFO    thonny: TIME/MODS 3.505 Sending message highlight_occurrences_response 
+15:56:19.544 [MainThread] INFO    thonny: TIME/MODS 0.554 Sending message highlight_occurrences_response 
+15:56:20.613 [MainThread] INFO    thonny: TIME/MODS 1.069 Sending message highlight_occurrences_response 
+15:56:21.346 [MainThread] INFO    thonny: TIME/MODS 0.733 Sending message highlight_occurrences_response 
+15:56:22.957 [MainThread] INFO    thonny: TIME/MODS 1.611 Sending message highlight_occurrences_response 
+15:56:23.323 [MainThread] INFO    thonny: TIME/MODS 0.366 Sending message highlight_occurrences_response 
+15:56:23.869 [MainThread] INFO    thonny: TIME/MODS 0.545 Sending message highlight_occurrences_response 
+15:56:31.137 [MainThread] INFO    thonny: TIME/MODS 7.268 Sending message highlight_occurrences_response 
+15:56:32.020 [MainThread] INFO    thonny: TIME/MODS 0.884 Sending message highlight_occurrences_response 
+15:56:32.779 [MainThread] INFO    thonny: TIME/MODS 0.759 Sending message highlight_occurrences_response 
+15:56:34.364 [MainThread] INFO    thonny: TIME/MODS 1.586 Sending message highlight_occurrences_response 
+15:56:34.695 [MainThread] INFO    thonny: TIME/MODS 0.330 Sending message highlight_occurrences_response 
+15:56:39.355 [MainThread] INFO    thonny: TIME/MODS 4.660 Sending message highlight_occurrences_response 
+15:56:41.187 [MainThread] INFO    thonny: TIME/MODS 1.832 Sending message highlight_occurrences_response 
+15:56:41.555 [MainThread] INFO    thonny: TIME/MODS 0.368 Sending message highlight_occurrences_response 
+15:56:42.072 [MainThread] INFO    thonny: TIME/MODS 0.517 Sending message highlight_occurrences_response 
+15:57:05.217 [MainThread] INFO    thonny: TIME/MODS 23.145 Sending message highlight_occurrences_response 
+15:57:06.514 [MainThread] INFO    thonny: TIME/MODS 1.297 Sending message highlight_occurrences_response 
+15:57:07.219 [MainThread] INFO    thonny: TIME/MODS 0.705 Sending message highlight_occurrences_response 
+15:57:13.803 [MainThread] INFO    thonny: TIME/MODS 6.583 Sending message highlight_occurrences_response 
+15:58:08.581 [MainThread] INFO    thonny: TIME/MODS 54.764 Sending message highlight_occurrences_response 
+15:58:08.768 [MainThread] INFO    thonny: TIME/MODS 0.200 Sending message highlight_occurrences_response 
+16:04:47.455 [MainThread] INFO    thonny: TIME/MODS 398.634 Sending message highlight_occurrences_response 
+16:06:19.447 [MainThread] INFO    thonny: TIME/MODS 92.027 Sending message highlight_occurrences_response 
+16:06:36.140 [MainThread] INFO    thonny: TIME/MODS 16.711 Sending message highlight_occurrences_response 
+16:06:41.830 [MainThread] INFO    thonny: TIME/MODS 5.691 Sending message highlight_occurrences_response 
+16:06:42.029 [MainThread] INFO    thonny: TIME/MODS 0.198 Sending message highlight_occurrences_response 
+16:06:52.420 [MainThread] INFO    thonny: TIME/MODS 10.391 Sending message highlight_occurrences_response 
+16:06:59.680 [MainThread] INFO    thonny: TIME/MODS 7.259 Sending message highlight_occurrences_response 
+16:07:02.024 [MainThread] INFO    thonny: TIME/MODS 2.344 Sending message highlight_occurrences_response 
+16:07:03.144 [MainThread] INFO    thonny: TIME/MODS 1.120 Sending message highlight_occurrences_response 
+16:07:06.152 [MainThread] INFO    thonny: TIME/MODS 3.008 Sending message highlight_occurrences_response 
+16:07:06.697 [MainThread] INFO    thonny: TIME/MODS 0.545 Sending message highlight_occurrences_response 
+16:07:07.615 [MainThread] INFO    thonny: TIME/MODS 0.918 Sending message highlight_occurrences_response 
+16:07:09.777 [MainThread] INFO    thonny: TIME/MODS 2.161 Sending message highlight_occurrences_response 
+16:07:10.316 [MainThread] INFO    thonny: TIME/MODS 0.539 Sending message highlight_occurrences_response 
+16:07:11.408 [MainThread] INFO    thonny: TIME/MODS 1.092 Sending message highlight_occurrences_response 
+16:07:12.673 [MainThread] INFO    thonny: TIME/MODS 1.265 Sending message highlight_occurrences_response 
+16:07:14.649 [MainThread] INFO    thonny: TIME/MODS 1.976 Sending message highlight_occurrences_response 
+16:07:15.646 [MainThread] INFO    thonny: TIME/MODS 0.997 Sending message highlight_occurrences_response 
+16:07:17.437 [MainThread] INFO    thonny: TIME/MODS 1.792 Sending message highlight_occurrences_response 
+16:07:18.520 [MainThread] INFO    thonny: TIME/MODS 1.083 Sending message highlight_occurrences_response 
+16:07:19.846 [MainThread] INFO    thonny: TIME/MODS 1.326 Sending message highlight_occurrences_response 
+16:08:19.683 [MainThread] INFO    thonny: TIME/MODS 59.826 Sending message highlight_occurrences_response 
+16:08:35.751 [MainThread] INFO    thonny: TIME/MODS 16.080 Sending message highlight_occurrences_response 
+16:09:45.801 [MainThread] INFO    thonny: TIME/MODS 70.050 Sending message highlight_occurrences_response 
+16:09:48.432 [MainThread] INFO    thonny: TIME/MODS 2.631 Sending message highlight_occurrences_response 
+16:09:52.412 [MainThread] INFO    thonny: TIME/MODS 3.980 Sending message highlight_occurrences_response 
+16:09:52.632 [MainThread] INFO    thonny: TIME/MODS 0.220 Sending message highlight_occurrences_response 
+16:09:53.876 [MainThread] INFO    thonny: TIME/MODS 1.244 Sending message highlight_occurrences_response 
+16:09:55.844 [MainThread] INFO    thonny: TIME/MODS 1.967 Sending message highlight_occurrences_response 
+16:09:55.925 [MainThread] INFO    thonny: TIME/MODS 0.082 Sending message highlight_occurrences_response 
+16:09:56.582 [MainThread] INFO    thonny: TIME/MODS 0.657 Sending message highlight_occurrences_response 
+16:09:58.068 [MainThread] INFO    thonny: TIME/MODS 1.485 Sending message highlight_occurrences_response 
+16:09:58.667 [MainThread] INFO    thonny: TIME/MODS 0.599 Sending message highlight_occurrences_response 
+16:09:59.404 [MainThread] INFO    thonny: TIME/MODS 0.737 Sending message highlight_occurrences_response 
+16:09:59.949 [MainThread] INFO    thonny: TIME/MODS 0.545 Sending message highlight_occurrences_response 
+16:10:00.397 [MainThread] INFO    thonny: TIME/MODS 0.448 Sending message highlight_occurrences_response 
+16:10:01.243 [MainThread] INFO    thonny: TIME/MODS 0.846 Sending message highlight_occurrences_response 
+16:10:01.601 [MainThread] INFO    thonny: TIME/MODS 0.358 Sending message highlight_occurrences_response 
+16:10:02.014 [MainThread] INFO    thonny: TIME/MODS 0.412 Sending message highlight_occurrences_response 
+16:10:03.422 [MainThread] INFO    thonny: TIME/MODS 1.408 Sending message highlight_occurrences_response 
+16:10:04.082 [MainThread] INFO    thonny: TIME/MODS 0.660 Sending message highlight_occurrences_response 
+16:10:05.204 [MainThread] INFO    thonny: TIME/MODS 1.122 Sending message highlight_occurrences_response 
+16:10:06.216 [MainThread] INFO    thonny: TIME/MODS 1.012 Sending message highlight_occurrences_response 
+16:10:07.347 [MainThread] INFO    thonny: TIME/MODS 1.131 Sending message highlight_occurrences_response 
+16:10:08.016 [MainThread] INFO    thonny: TIME/MODS 0.669 Sending message highlight_occurrences_response 
+16:10:09.544 [MainThread] INFO    thonny: TIME/MODS 1.527 Sending message highlight_occurrences_response 
+16:10:10.489 [MainThread] INFO    thonny: TIME/MODS 0.945 Sending message highlight_occurrences_response 
+16:10:18.160 [MainThread] INFO    thonny: TIME/MODS 7.671 Sending message highlight_occurrences_response 
+16:13:02.879 [MainThread] INFO    thonny: TIME/MODS 164.718 Sending message highlight_occurrences_response 
+16:13:06.278 [MainThread] INFO    thonny: TIME/MODS 3.400 Sending message highlight_occurrences_response 
+16:13:08.915 [MainThread] INFO    thonny: TIME/MODS 2.637 Sending message highlight_occurrences_response 
+16:13:09.964 [MainThread] INFO    thonny: TIME/MODS 1.049 Sending message highlight_occurrences_response 
+16:14:49.436 [MainThread] INFO    thonny: TIME/MODS 99.473 Sending message highlight_occurrences_response 
+16:18:18.536 [MainThread] INFO    thonny: TIME/MODS 209.081 Sending message highlight_occurrences_response 
