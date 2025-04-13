@@ -3,121 +3,6 @@
       xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
       xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
 >
-  <bookmark href="file:///home/javid/myenv/b_servo:py" added="2025-03-04T19:26:55.739541Z" modified="2025-03-04T19:26:55.739567Z" visited="2025-03-04T19:26:55.739545Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="application/octet-stream"/>
-        <bookmark:applications>
-          <bookmark:application name="zenity" exec="&apos;zenity %u&apos;" modified="2025-03-04T19:26:55.739551Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/javid/myenv/b_servo.py" added="2025-03-04T19:28:08.009247Z" modified="2025-03-04T19:28:08.009265Z" visited="2025-03-04T19:28:08.009250Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/x-python"/>
-        <bookmark:applications>
-          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2025-03-04T19:28:08.009256Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/javid/b_servo.py" added="2025-03-04T19:35:40.052057Z" modified="2025-03-04T19:35:40.052077Z" visited="2025-03-04T19:35:40.052059Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/x-python"/>
-        <bookmark:applications>
-          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2025-03-04T19:35:40.052066Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/javid/bno055_normal.py" added="2025-03-06T15:58:44.721400Z" modified="2025-03-06T18:31:13.375338Z" visited="2025-03-06T15:58:44.721406Z">
-    <desc>Language: ; Encoding: UTF-8; Cursor: 0:0;</desc>
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/plain"/>
-        <bookmark:groups>
-          <bookmark:group>Mousepad</bookmark:group>
-        </bookmark:groups>
-        <bookmark:applications>
-          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2025-03-06T15:59:44.675687Z" count="2"/>
-          <bookmark:application name="zenity" exec="&apos;zenity %u&apos;" modified="2025-03-06T18:31:13.375325Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/javid/ina219" added="2025-03-06T18:34:15.954272Z" modified="2025-03-06T18:34:15.954966Z" visited="2025-03-06T18:34:15.954276Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="application/octet-stream"/>
-        <bookmark:applications>
-          <bookmark:application name="zenity" exec="&apos;zenity %u&apos;" modified="2025-03-06T18:34:15.954287Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/javid/ina219.py" added="2025-03-08T10:16:16.082689Z" modified="2025-03-08T10:16:16.082710Z" visited="2025-03-08T10:16:16.082691Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/x-python"/>
-        <bookmark:applications>
-          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2025-03-08T10:16:16.082699Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/javid/bno055_cal" added="2025-03-08T10:32:54.201509Z" modified="2025-03-08T10:32:54.201565Z" visited="2025-03-08T10:32:54.201524Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="application/octet-stream"/>
-        <bookmark:applications>
-          <bookmark:application name="zenity" exec="&apos;zenity %u&apos;" modified="2025-03-08T10:32:54.201541Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/javid/bno055_udp.py" added="2025-03-08T10:37:06.567160Z" modified="2025-03-08T10:37:06.567191Z" visited="2025-03-08T10:37:06.567165Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/x-python"/>
-        <bookmark:applications>
-          <bookmark:application name="zenity" exec="&apos;zenity %u&apos;" modified="2025-03-08T10:37:06.567175Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/javid/sensor_test.py" added="2025-03-08T10:43:14.190192Z" modified="2025-03-08T10:43:14.190210Z" visited="2025-03-08T10:43:14.190195Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/x-python"/>
-        <bookmark:applications>
-          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2025-03-08T10:43:14.190202Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/javid/kamera.py" added="2025-03-08T11:14:31.386904Z" modified="2025-03-08T11:14:31.386932Z" visited="2025-03-08T11:14:31.386907Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/x-python"/>
-        <bookmark:applications>
-          <bookmark:application name="zenity" exec="&apos;zenity %u&apos;" modified="2025-03-08T11:14:31.386914Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/javid/ina219_deneme.py" added="2025-03-08T13:01:13.277217Z" modified="2025-03-08T13:01:13.277246Z" visited="2025-03-08T13:01:13.277220Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/x-python"/>
-        <bookmark:applications>
-          <bookmark:application name="zenity" exec="&apos;zenity %u&apos;" modified="2025-03-08T13:01:13.277229Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
   <bookmark href="file:///home/javid/bme_680.py" added="2025-03-22T11:45:03.251358Z" modified="2025-03-22T11:45:03.264209Z" visited="2025-03-22T11:45:03.251370Z">
     <info>
       <metadata owner="http://freedesktop.org">
@@ -157,6 +42,64 @@
         <mime:mime-type type="text/x-python"/>
         <bookmark:applications>
           <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2025-03-22T14:31:16.841142Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/javid/buzzer.py" added="2025-04-03T22:06:27.348829Z" modified="2025-04-03T22:06:27.348867Z" visited="2025-04-03T22:06:27.348834Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="zenity" exec="&apos;zenity %u&apos;" modified="2025-04-03T22:06:27.348844Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/javid/myenv/bno055_sd" added="2025-04-07T15:13:11.271202Z" modified="2025-04-07T15:13:11.271224Z" visited="2025-04-07T15:13:11.271205Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="zenity" exec="&apos;zenity %u&apos;" modified="2025-04-07T15:13:11.271213Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/javid/myenv/pyvenv.cfg" added="2025-04-07T15:35:33.252137Z" modified="2025-04-07T15:35:33.252169Z" visited="2025-04-07T15:35:33.252142Z">
+    <desc>Language: ; Encoding: UTF-8; Cursor: 0:0;</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2025-04-07T15:35:33.252158Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/javid/bno055_logs/sensor_log.csv" added="2025-04-10T16:45:38.420860Z" modified="2025-04-10T16:45:51.493886Z" visited="2025-04-10T16:45:38.420863Z">
+    <desc>Language: ; Encoding: UTF-8; Cursor: 0:0;</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2025-04-10T16:45:51.493869Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/javid/n_gps.py" added="2025-04-10T16:55:00.264513Z" modified="2025-04-10T16:55:00.264832Z" visited="2025-04-10T16:55:00.264519Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="zenity" exec="&apos;zenity %u&apos;" modified="2025-04-10T16:55:00.264531Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>

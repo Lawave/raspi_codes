@@ -1,4 +1,4 @@
-Xsession: X session started for javid at Mon 24 Mar 11:54:21 +03 2025
+Xsession: X session started for javid at Thu 10 Apr 20:09:38 +03 2025
 dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
 dbus-update-activation-environment: setting DISPLAY=:0
 dbus-update-activation-environment: setting XAUTHORITY=/home/javid/.Xauthority
@@ -26,18 +26,18 @@ dbus-update-activation-environment: setting GDMSESSION=LXDE-pi-x
 dbus-update-activation-environment: setting NO_AT_BRIDGE=1
 dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
 dbus-update-activation-environment: setting PWD=/home/javid
-** Message: 11:54:24.666: main.vala:103: Session is LXDE-pi
-** Message: 11:54:24.666: main.vala:104: DE is LXDE
-** Message: 11:54:25.185: main.vala:135: log directory: /home/javid/.cache/lxsession/LXDE-pi
-** Message: 11:54:25.185: main.vala:136: log path: /home/javid/.cache/lxsession/LXDE-pi/run.log
-Xsession: X session started for javid at Mon Mar 24 12:23:57 +03 2025
-dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/session-250342bec9614338/bus
+** Message: 20:09:41.082: main.vala:103: Session is LXDE-pi
+** Message: 20:09:41.083: main.vala:104: DE is LXDE
+** Message: 20:09:41.623: main.vala:135: log directory: /home/javid/.cache/lxsession/LXDE-pi
+** Message: 20:09:41.623: main.vala:136: log path: /home/javid/.cache/lxsession/LXDE-pi/run.log
+Xsession: X session started for javid at Sun Apr 13 13:01:12 +03 2025
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/session-d8b7bb35a7424425/bus
 dbus-update-activation-environment: setting DISPLAY=:1
 dbus-update-activation-environment: setting XAUTHORITY=/home/javid/.Xauthority
 dbus-update-activation-environment: warning: error sending to systemd: org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
 localuser:javid being added to access control list
 dbus-update-activation-environment: setting VNCDESKTOP=x11
-dbus-update-activation-environment: setting SSH_CLIENT=192.168.231.139 49726 22
+dbus-update-activation-environment: setting SSH_CLIENT=172.20.10.2 51410 22
 dbus-update-activation-environment: setting USER=javid
 dbus-update-activation-environment: setting TEXTDOMAIN=Linux-PAM
 dbus-update-activation-environment: setting HOSTNAME=javid
@@ -48,10 +48,10 @@ dbus-update-activation-environment: setting MOTD_SHOWN=pam
 dbus-update-activation-environment: setting SSH_TTY=/dev/pts/0
 dbus-update-activation-environment: setting DPKG_DEB_THREADS_MAX=1
 dbus-update-activation-environment: setting LC_CTYPE=UTF-8
-dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/session-250342bec9614338/bus
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/session-d8b7bb35a7424425/bus
 dbus-update-activation-environment: setting VNC_PROFILE_DIR=/home/javid/.vnc
 dbus-update-activation-environment: setting LOGNAME=javid
-dbus-update-activation-environment: setting PULSE_SERVER=/run/user/1000/session-250342bec9614338/pulse/native
+dbus-update-activation-environment: setting PULSE_SERVER=/run/user/1000/session-d8b7bb35a7424425/pulse/native
 dbus-update-activation-environment: setting _=/usr/bin/vncserver-virtual
 dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
 dbus-update-activation-environment: setting TERM=xterm-256color
@@ -66,12 +66,12 @@ dbus-update-activation-environment: setting NO_AT_BRIDGE=1
 dbus-update-activation-environment: setting DISPLAYNUM=1
 dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
 dbus-update-activation-environment: setting PWD=/home/javid
-dbus-update-activation-environment: setting SSH_CONNECTION=192.168.231.139 49726 192.168.231.8 22
+dbus-update-activation-environment: setting SSH_CONNECTION=172.20.10.2 51410 172.20.10.3 22
 dbus-update-activation-environment: warning: error sending to systemd: org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
-** Message: 12:23:59.269: main.vala:103: Session is LXDE-pi
-** Message: 12:23:59.269: main.vala:104: DE is LXDE
+** Message: 13:01:14.065: main.vala:103: Session is LXDE-pi
+** Message: 13:01:14.065: main.vala:104: DE is LXDE
 
-(lxsession:2919): Gtk-WARNING **: 12:23:59.269: Locale not supported by C library.
+(lxsession:4357): Gtk-WARNING **: 13:01:14.066: Locale not supported by C library.
 	Using the fallback 'C' locale.
-** Message: 12:23:59.466: main.vala:135: log directory: /home/javid/.cache/lxsession/LXDE-pi
-** Message: 12:23:59.467: main.vala:136: log path: /home/javid/.cache/lxsession/LXDE-pi/run.log
+** Message: 13:01:14.350: main.vala:135: log directory: /home/javid/.cache/lxsession/LXDE-pi
+** Message: 13:01:14.350: main.vala:136: log path: /home/javid/.cache/lxsession/LXDE-pi/run.log
