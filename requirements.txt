@@ -1,5 +1,6 @@
 Adafruit-Blinka==8.56.0
 Adafruit-BNO055==1.0.2
+adafruit-circuitpython-bme280==2.6.27
 adafruit-circuitpython-bme680==3.7.12
 adafruit-circuitpython-bno055==5.4.18
 adafruit-circuitpython-busdevice==5.2.11

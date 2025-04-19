@@ -111,3 +111,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+source ~/myenv/bin/activate
+vncserver-virtual :1

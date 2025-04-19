@@ -104,4 +104,14 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/javid/button_deneme.py" added="2025-04-14T15:17:08.684607Z" modified="2025-04-14T15:17:08.684641Z" visited="2025-04-14T15:17:08.684612Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="zenity" exec="&apos;zenity %u&apos;" modified="2025-04-14T15:17:08.684623Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

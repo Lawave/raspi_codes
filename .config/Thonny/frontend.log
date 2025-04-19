@@ -1,15 +1,17 @@
-19:59:08.448 [MainThread] INFO    thonny: Thonny version: 4.1.4
-19:59:08.449 [MainThread] INFO    thonny: cwd: /home/javid
-19:59:08.449 [MainThread] INFO    thonny: original argv: ['/usr/bin/python3', '/usr/bin/thonny']
-19:59:08.450 [MainThread] INFO    thonny: sys.executable: /usr/bin/python3
-19:59:08.450 [MainThread] INFO    thonny: sys.argv: ['/usr/bin/thonny']
-19:59:08.450 [MainThread] INFO    thonny: sys.path: ['/usr/bin', '/usr/lib/python311.zip', '/usr/lib/python3.11', '/usr/lib/python3.11/lib-dynload', '/usr/local/lib/python3.11/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3.11/dist-packages']
-19:59:08.451 [MainThread] INFO    thonny: sys.flags: sys.flags(debug=0, inspect=0, interactive=0, optimize=0, dont_write_bytecode=0, no_user_site=0, no_site=0, ignore_environment=0, verbose=0, bytes_warning=0, quiet=0, hash_randomization=1, isolated=0, dev_mode=False, utf8_mode=1, warn_default_encoding=0, safe_path=False, int_max_str_digits=-1)
-19:59:09.074 [MainThread] INFO    thonny.workbench: Starting Workbench
-19:59:09.747 [MainThread] INFO    thonny.workbench: Creating runner
-19:59:09.772 [MainThread] INFO    thonny.workbench: Start loading plugins
-19:59:10.464 [MainThread] INFO    thonny.workbench: Done loading plugins
-19:59:11.534 [MainThread] INFO    thonny.workbench: Opening views
-19:59:12.513 [MainThread] INFO    thonny.plugins.cpython_frontend.cp_front: Creating LocalCPythonProxy
-19:59:12.514 [MainThread] INFO    thonny.running: Starting the backend: ['/usr/bin/python3', '-u', '-B', '/usr/lib/python3/dist-packages/thonny/plugins/cpython_backend/cp_launcher.py', '/home/javid/myenv', "{'run.warn_module_shadowing': True}"] /home/javid/myenv
-20:00:09.992 [MainThread] INFO    thonny.ui_utils: Restoring focus to .
+21:49:02.220 [MainThread] INFO    thonny: Thonny version: 4.1.4
+21:49:02.221 [MainThread] INFO    thonny: cwd: /home/javid
+21:49:02.222 [MainThread] INFO    thonny: original argv: ['/usr/bin/python3', '/usr/bin/thonny']
+21:49:02.223 [MainThread] INFO    thonny: sys.executable: /usr/bin/python3
+21:49:02.223 [MainThread] INFO    thonny: sys.argv: ['/usr/bin/thonny']
+21:49:02.223 [MainThread] INFO    thonny: sys.path: ['/usr/bin', '/usr/lib/python311.zip', '/usr/lib/python3.11', '/usr/lib/python3.11/lib-dynload', '/usr/local/lib/python3.11/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3.11/dist-packages']
+21:49:02.224 [MainThread] INFO    thonny: sys.flags: sys.flags(debug=0, inspect=0, interactive=0, optimize=0, dont_write_bytecode=0, no_user_site=0, no_site=0, ignore_environment=0, verbose=0, bytes_warning=0, quiet=0, hash_randomization=1, isolated=0, dev_mode=False, utf8_mode=0, warn_default_encoding=0, safe_path=False, int_max_str_digits=-1)
+21:49:03.210 [MainThread] INFO    thonny.workbench: Starting Workbench
+21:49:04.314 [MainThread] INFO    thonny.workbench: Creating runner
+21:49:04.363 [MainThread] INFO    thonny.workbench: Start loading plugins
+21:49:05.985 [MainThread] INFO    thonny.workbench: Done loading plugins
+21:49:08.100 [MainThread] INFO    thonny.workbench: Opening views
+21:49:10.224 [MainThread] INFO    thonny.plugins.cpython_frontend.cp_front: Creating LocalCPythonProxy
+21:49:10.226 [MainThread] INFO    thonny.running: Starting the backend: ['/usr/bin/python3', '-u', '-B', '/usr/lib/python3/dist-packages/thonny/plugins/cpython_backend/cp_launcher.py', '/home/javid/myenv', "{'run.warn_module_shadowing': True}"] /home/javid/myenv
+21:50:01.880 [MainThread] INFO    thonny.ui_utils: Restoring focus to .
+21:50:16.938 [MainThread] WARNING thonny.ui_utils: Zenity returned code 1 and stderr ''
+21:50:16.946 [MainThread] INFO    thonny.ui_utils: Restoring focus to .
