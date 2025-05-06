@@ -286,6 +286,62 @@ security-medium
 
 
 
+-zenoty-dialog-error.desktop
+Dialog Error Icon
+
+dialog-error
+
+11
+
+zenoty
+4
+0
+
+
+
+
+-zenoty-dialog-information.desktop
+Dialog Info Icon
+
+dialog-information
+
+11
+
+zenoty
+4
+0
+
+
+
+
+-zenoty-dialog-question.desktop
+Dialog Question Icon
+
+dialog-question
+
+11
+
+zenoty
+4
+0
+
+
+
+
+-zenoty-dialog-warning.desktop
+Dialog Warning Icon
+
+dialog-warning
+
+11
+
+zenoty
+4
+0
+
+
+
+
 -dillo.desktop
 
 
@@ -566,20 +622,6 @@ pishutdown
 
 
 
--lxde-pi-shutdown-helper.desktop
-Shutdown
-
-system-shutdown
-
-10
-
-lxde-pi-shutdown-helper
-4
-0
-
-
-
-
 -squeak.desktop
 
 
@@ -823,7 +865,7 @@ FileTools;FileManager;Utility;Core;GTK
 -agnostics.desktop
 Raspberry Pi Diagnostics
 Test the Raspberry Pi hardware
-rpi
+diagnostics
 
 11
 Raspberry Pi Diagnostics
@@ -1126,20 +1168,20 @@ pi-gpk-prefs
 
 Settings;X-GNOME-SystemSettings
 
--system-config-printer.desktop
-Print Settings
-Configure printers
+-rpinters.desktop
+Printers
+Add and configure printers
 printer
 
 11
-Print Settings
-system-config-printer
+
+rpinters
 2
 0
 
 
-GNOME;GTK;Settings;HardwareSettings;X-GNOME-Settings-Panel;X-Unity-Settings-Panel;System;Printing
-Printer,Queue,Print,Paper,Ink,Toner
+Settings
+
 -qt5ct.desktop
 Qt5 Settings
 Qt5 Configuration Tool

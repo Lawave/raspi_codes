@@ -8,9 +8,6 @@ import socket
 import struct
 import math
 import RPi.GPIO as GPIO
-UDP_IP = "192.168.64.74" 
-UDP_PORT = 5005 
-sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 def gps_data():
     now = datetime.datetime.now()
     now_ = now.replace(microsecond=0) 

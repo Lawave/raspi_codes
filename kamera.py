@@ -1,7 +1,7 @@
 from picamera2 import Picamera2
-from PIL import image
+from PIL import Image
 import io
-from Flask import flask, response
+from flask import Flask, Response
 import numpy as np
 import threading
 
@@ -26,4 +26,4 @@ def video_feed():
     return Response(generate_frame(), mimetype='multipart/x-mixed-replace;boundary=frame')
 
 if __name__ == '__main__':
-    app.run(host='192.168.183.74', port=5005, threaded=True)
+    app.run(host='172.20.10.3', port=5005, threaded=True)

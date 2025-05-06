@@ -3,59 +3,6 @@
       xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
       xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
 >
-  <bookmark href="file:///home/javid/bme_680.py" added="2025-03-22T11:45:03.251358Z" modified="2025-03-22T11:45:03.264209Z" visited="2025-03-22T11:45:03.251370Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/x-python"/>
-        <bookmark:applications>
-          <bookmark:application name="zenity" exec="&apos;zenity %u&apos;" modified="2025-03-22T11:45:03.251390Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/javid/myenv/gps.py" added="2025-03-22T12:51:54.633548Z" modified="2025-03-22T12:51:54.633591Z" visited="2025-03-22T12:51:54.633558Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/x-python"/>
-        <bookmark:applications>
-          <bookmark:application name="zenity" exec="&apos;zenity %u&apos;" modified="2025-03-22T12:51:54.633571Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/javid/test.jpg" added="2025-03-22T14:29:08.085321Z" modified="2025-03-22T14:30:52.751133Z" visited="2025-03-22T14:29:08.085328Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="image/jpeg"/>
-        <bookmark:groups>
-          <bookmark:group>Graphics</bookmark:group>
-        </bookmark:groups>
-        <bookmark:applications>
-          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2025-03-22T14:30:52.751122Z" count="3"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/javid/gps.py" added="2025-03-22T14:31:16.841132Z" modified="2025-03-22T14:31:16.841150Z" visited="2025-03-22T14:31:16.841135Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/x-python"/>
-        <bookmark:applications>
-          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2025-03-22T14:31:16.841142Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/javid/buzzer.py" added="2025-04-03T22:06:27.348829Z" modified="2025-04-03T22:06:27.348867Z" visited="2025-04-03T22:06:27.348834Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/x-python"/>
-        <bookmark:applications>
-          <bookmark:application name="zenity" exec="&apos;zenity %u&apos;" modified="2025-04-03T22:06:27.348844Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
   <bookmark href="file:///home/javid/myenv/bno055_sd" added="2025-04-07T15:13:11.271202Z" modified="2025-04-07T15:13:11.271224Z" visited="2025-04-07T15:13:11.271205Z">
     <info>
       <metadata owner="http://freedesktop.org">
@@ -110,6 +57,91 @@
         <mime:mime-type type="text/x-python"/>
         <bookmark:applications>
           <bookmark:application name="zenity" exec="&apos;zenity %u&apos;" modified="2025-04-14T15:17:08.684623Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/javid/nrf_deneme.py" added="2025-05-03T13:50:20.334784Z" modified="2025-05-03T13:50:20.334810Z" visited="2025-05-03T13:50:20.334787Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="zenity" exec="&apos;zenity %u&apos;" modified="2025-05-03T13:50:20.334796Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/javid/test.jpg" added="2025-05-06T17:29:14.794493Z" modified="2025-05-06T19:00:16.964977Z" visited="2025-05-06T17:29:14.794498Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2025-05-06T19:00:16.964965Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/javid/mert.jpg" added="2025-05-06T17:31:20.090760Z" modified="2025-05-06T17:31:20.090791Z" visited="2025-05-06T17:31:20.090768Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2025-05-06T17:31:20.090780Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/javid/eray.jpg" added="2025-05-06T17:32:32.899051Z" modified="2025-05-06T17:32:32.899094Z" visited="2025-05-06T17:32:32.899059Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2025-05-06T17:32:32.899078Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/javid/caner.jpg" added="2025-05-06T17:33:45.163072Z" modified="2025-05-06T17:33:45.163130Z" visited="2025-05-06T17:33:45.163079Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2025-05-06T17:33:45.163115Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/javid/feyzajavid.jpg" added="2025-05-06T17:34:38.815268Z" modified="2025-05-06T17:34:38.815306Z" visited="2025-05-06T17:34:38.815275Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Eye of MATE Image Viewer" exec="&apos;eom %u&apos;" modified="2025-05-06T17:34:38.815290Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/javid/kamera.py" added="2025-05-06T17:37:05.865852Z" modified="2025-05-06T17:37:05.865871Z" visited="2025-05-06T17:37:05.865855Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2025-05-06T17:37:05.865862Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>
