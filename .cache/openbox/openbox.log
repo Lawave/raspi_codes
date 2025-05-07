@@ -1,6 +1,2 @@
 Obt-Message: Xinerama extension is not present on the server
 Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
-penbox-Message: Requested key "XF86AudioLowerVolume" does not exist on the display
-Openbox-Message: Requested key "XF86AudioMute" does not exist on the display
-Openbox-Message: Requested key "XF86PowerOff" does not exist on the display
-Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"

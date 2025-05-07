@@ -1,8 +1,9 @@
-Xsession: X session started for javid at Wed  7 May 01:45:07 +03 2025
+Xsession: X session started for javid at Wed  7 May 02:53:18 +03 2025
 dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
 dbus-update-activation-environment: setting DISPLAY=:0
 dbus-update-activation-environment: setting XAUTHORITY=/home/javid/.Xauthority
 localuser:javid being added to access control list
+Xsession: X session started for javid at Wed  7 May 02:53:22 +03 2025
 dbus-update-activation-environment: setting USER=javid
 dbus-update-activation-environment: setting TEXTDOMAIN=Linux-PAM
 dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
@@ -26,18 +27,13 @@ dbus-update-activation-environment: setting GDMSESSION=LXDE-pi-x
 dbus-update-activation-environment: setting NO_AT_BRIDGE=1
 dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
 dbus-update-activation-environment: setting PWD=/home/javid
-** Message: 01:45:11.285: main.vala:103: Session is LXDE-pi
-** Message: 01:45:11.285: main.vala:104: DE is LXDE
-** Message: 01:45:11.917: main.vala:135: log directory: /home/javid/.cache/lxsession/LXDE-pi
-** Message: 01:45:11.917: main.vala:136: log path: /home/javid/.cache/lxsession/LXDE-pi/run.log
-Xsession: X session started for javid at Wed May  7 02:49:27 +03 2025
-dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/session-4627521aace545d1/bus
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/session-ce6c1e6f83ed453d/bus
 dbus-update-activation-environment: setting DISPLAY=:1
 dbus-update-activation-environment: setting XAUTHORITY=/home/javid/.Xauthority
 dbus-update-activation-environment: warning: error sending to systemd: org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
 localuser:javid being added to access control list
 dbus-update-activation-environment: setting VNCDESKTOP=x11
-dbus-update-activation-environment: setting SSH_CLIENT=172.20.10.2 61367 22
+dbus-update-activation-environment: setting MAIL=/var/mail/javid
 dbus-update-activation-environment: setting USER=javid
 dbus-update-activation-environment: setting TEXTDOMAIN=Linux-PAM
 dbus-update-activation-environment: setting HOSTNAME=javid
@@ -45,17 +41,16 @@ dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
 dbus-update-activation-environment: setting SHLVL=1
 dbus-update-activation-environment: setting HOME=/home/javid
 dbus-update-activation-environment: setting MOTD_SHOWN=pam
-dbus-update-activation-environment: setting SSH_TTY=/dev/pts/0
+dbus-update-activation-environment: setting HUSHLOGIN=FALSE
 dbus-update-activation-environment: setting PS1=$ 
 dbus-update-activation-environment: setting DPKG_DEB_THREADS_MAX=1
-dbus-update-activation-environment: setting LC_CTYPE=UTF-8
-dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/session-4627521aace545d1/bus
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/session-ce6c1e6f83ed453d/bus
 dbus-update-activation-environment: setting VNC_PROFILE_DIR=/home/javid/.vnc
 dbus-update-activation-environment: setting LOGNAME=javid
-dbus-update-activation-environment: setting PULSE_SERVER=/run/user/1000/session-4627521aace545d1/pulse/native
+dbus-update-activation-environment: setting PULSE_SERVER=/run/user/1000/session-ce6c1e6f83ed453d/pulse/native
 dbus-update-activation-environment: setting _=/usr/bin/vncserver-virtual
 dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
-dbus-update-activation-environment: setting TERM=xterm-256color
+dbus-update-activation-environment: setting TERM=linux
 dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games
 dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
 dbus-update-activation-environment: setting DISPLAY=:1
@@ -69,22 +64,12 @@ dbus-update-activation-environment: setting DISPLAYNUM=1
 dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
 dbus-update-activation-environment: setting VIRTUAL_ENV=/home/javid/myenv
 dbus-update-activation-environment: setting PWD=/home/javid
-dbus-update-activation-environment: setting SSH_CONNECTION=172.20.10.2 61367 172.20.10.3 22
 dbus-update-activation-environment: warning: error sending to systemd: org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
-** Message: 02:49:30.720: main.vala:103: Session is LXDE-pi
-** Message: 02:49:30.720: main.vala:104: DE is LXDE
-
-(lxsession:1968): Gtk-WARNING **: 02:49:30.721: Locale not supported by C library.
-	Using the fallback 'C' locale.
-** Message: 02:49:30.981: main.vala:135: log directory: /home/javid/.cache/lxsession/LXDE-pi
-** Message: 02:49:30.981: main.vala:136: log path: /home/javid/.cache/lxsession/LXDE-pi/run.log
-Xsession: X session started for javid at Wed  7 May 02:53:12 +03 2025
-dbus-update-activation-environment: error: unable to connect to D-Bus: Failed to connect to socket /tmp/.vnc-1000/run/session-a75639366e0443f8/bus: No such file or directory
-xrdb: Connection refused
-xrdb: Can't open display ':1'
-xhost:  unable to open display ":1"
-dbus-update-activation-environment: error: unable to connect to D-Bus: Failed to connect to socket /tmp/.vnc-1000/run/session-a75639366e0443f8/bus: No such file or directory
-** Message: 02:53:14.003: main.vala:103: Session is LXDE-pi
-** Message: 02:53:14.003: main.vala:104: DE is LXDE
-
-(lxsession:783): Gtk-WARNING **: 02:53:14.397: cannot open display: :1
+** Message: 02:53:22.555: main.vala:103: Session is LXDE-pi
+** Message: 02:53:22.555: main.vala:103: Session is LXDE-pi
+** Message: 02:53:22.555: main.vala:104: DE is LXDE
+** Message: 02:53:22.555: main.vala:104: DE is LXDE
+** Message: 02:53:23.208: main.vala:135: log directory: /home/javid/.cache/lxsession/LXDE-pi
+** Message: 02:53:23.208: main.vala:136: log path: /home/javid/.cache/lxsession/LXDE-pi/run.log
+** Message: 02:53:23.209: main.vala:135: log directory: /home/javid/.cache/lxsession/LXDE-pi
+** Message: 02:53:23.209: main.vala:136: log path: /home/javid/.cache/lxsession/LXDE-pi/run.log

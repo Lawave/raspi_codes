@@ -1,4 +1,4 @@
-XvncSession start time: 2025-05-06T23:53:19.465Z
+XvncSession start time: 2025-05-06T23:59:22.739Z
 
 Starting Xvnc
 Waiting for Xvnc...
@@ -12,10 +12,39 @@ See https://www.realvnc.com for information on VNC.
 For third party acknowledgements see:
 https://www.realvnc.com/docs/7/foss.html
 OS: Debian GNU/Linux 12, Linux 6.12.25+rpt, aarch64
-<13> 2025-05-06T23:53:19.792Z javid Xvnc[1119]: ServerManager: Server started
+<13> 2025-05-06T23:59:23.259Z javid Xvnc[1096]: ServerManager: Server started
 Underlying X server release 609000, The X.Org Foundation
 
 error opening security policy file /usr/X11R6/lib/X11/xserver/SecurityPolicy
+Starting dbus
+dbus started
+Starting pulseaudio
+pulseaudio started
+Starting xstartup
+xstartup started
+RealVNC(R) Server 7.13.1 (r57) ARMv8-A (Dec 6 2024 18:49:22)
+Copyright (C) RealVNC Ltd.
+RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark
+registrations and/or pending trademark applications in the European Union,
+United States of America and other jurisdictions.
+Protected by UK patent 2481870; US patent 8760366; EU patent 2652951.
+See https://www.realvnc.com for information on VNC.
+For third party acknowledgements see:
+https://www.realvnc.com/docs/7/foss.html
+OS: Debian GNU/Linux 12, Linux 6.12.25+rpt, aarch64
+
+On some distributions (in particular Red Hat), you may get a better experience
+by running vncserver-virtual in conjunction with the system Xorg server, rather
+than the old version built-in to Xvnc. More desktop environments and
+applications will likely be compatible. For more information on this alternative
+implementation, please see: https://www.realvnc.com/doclink/kb-546
+
+Running applications in /etc/vnc/xstartup
+
+XvncSession start time: 2025-05-06T23:59:24.737Z
+
+Starting Xvnc
+Waiting for Xvnc...
 Starting dbus
 dbus started
 Starting pulseaudio
@@ -153,26 +182,38 @@ No symbols defined for <I7C> (keycode 252)
 No symbols defined for <I7D> (keycode 253)
 No symbols defined for <I7E> (keycode 254)
 No symbols defined for <I7F> (keycode 255)
-dbus-daemon[1159]: [session uid=1000 pid=1159] Activating service name='org.freedesktop.systemd1' requested by ':1.0' (uid=1000 pid=1262 comm="dbus-update-activation-environment --verbose --sys")
-dbus-daemon[1159]: [session uid=1000 pid=1159] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
-dbus-daemon[1159]: [session uid=1000 pid=1159] Activating service name='org.freedesktop.systemd1' requested by ':1.2' (uid=1000 pid=1315 comm="dbus-update-activation-environment --verbose --sys")
-dbus-daemon[1159]: [session uid=1000 pid=1159] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
-dbus-daemon[1159]: [session uid=1000 pid=1159] Activating service name='org.gtk.vfs.Daemon' requested by ':1.3' (uid=1000 pid=1239 comm="/usr/bin/lxsession -s LXDE-pi -e LXDE")
-dbus-daemon[1159]: [session uid=1000 pid=1159] Successfully activated service 'org.gtk.vfs.Daemon'
 
-(vncserverui:1243): GLib-GObject-CRITICAL **: 02:53:27.754: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
-dbus-daemon[1159]: [session uid=1000 pid=1159] Activating service name='org.freedesktop.systemd1' requested by ':1.7' (uid=1000 pid=1519 comm="/usr/bin/dbus-update-activation-environment --syst")
-dbus-daemon[1159]: [session uid=1000 pid=1159] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
-dbus-daemon[1159]: [session uid=1000 pid=1159] Activating service name='org.gtk.vfs.UDisks2VolumeMonitor' requested by ':1.9' (uid=1000 pid=1403 comm="pcmanfm --desktop --profile LXDE-pi")
-dbus-daemon[1159]: [session uid=1000 pid=1159] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
-dbus-daemon[1159]: [session uid=1000 pid=1159] Activating service name='org.gtk.vfs.AfcVolumeMonitor' requested by ':1.9' (uid=1000 pid=1403 comm="pcmanfm --desktop --profile LXDE-pi")
-dbus-daemon[1159]: [session uid=1000 pid=1159] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
-dbus-daemon[1159]: [session uid=1000 pid=1159] Activating service name='org.gtk.vfs.GoaVolumeMonitor' requested by ':1.9' (uid=1000 pid=1403 comm="pcmanfm --desktop --profile LXDE-pi")
-dbus-daemon[1159]: [session uid=1000 pid=1159] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
-dbus-daemon[1159]: [session uid=1000 pid=1159] Activating service name='org.gtk.vfs.MTPVolumeMonitor' requested by ':1.9' (uid=1000 pid=1403 comm="pcmanfm --desktop --profile LXDE-pi")
-dbus-daemon[1159]: [session uid=1000 pid=1159] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
-dbus-daemon[1159]: [session uid=1000 pid=1159] Activating service name='org.gtk.vfs.GPhoto2VolumeMonitor' requested by ':1.9' (uid=1000 pid=1403 comm="pcmanfm --desktop --profile LXDE-pi")
-dbus-daemon[1159]: [session uid=1000 pid=1159] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+Fatal server error:
+Server is already active for display 1
+	If this server is no longer running, remove /tmp/.X1-lock
+	and start again.
+
+Xvnc terminated
+Sending TERM signal to dbus...
+dbus terminated
+Sending TERM signal to pulseaudio...
+dbus-daemon[1152]: [session uid=1000 pid=1152] Activating service name='org.freedesktop.systemd1' requested by ':1.0' (uid=1000 pid=1274 comm="dbus-update-activation-environment --verbose --sys")
+dbus-daemon[1152]: [session uid=1000 pid=1152] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+pulseaudio terminated
+xstartup already terminated
+dbus-daemon[1152]: [session uid=1000 pid=1152] Activating service name='org.freedesktop.systemd1' requested by ':1.2' (uid=1000 pid=1335 comm="dbus-update-activation-environment --verbose --sys")
+dbus-daemon[1152]: [session uid=1000 pid=1152] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+dbus-daemon[1152]: [session uid=1000 pid=1152] Activating service name='org.gtk.vfs.Daemon' requested by ':1.3' (uid=1000 pid=1240 comm="/usr/bin/lxsession -s LXDE-pi -e LXDE")
+dbus-daemon[1152]: [session uid=1000 pid=1152] Successfully activated service 'org.gtk.vfs.Daemon'
+<13> 2025-05-06T23:59:30.488Z javid Xvnc[1096]: Connections: connected: 172.20.10.2::61475 (TCP)
+
+(vncserverui:1283): GLib-GObject-CRITICAL **: 02:59:30.874: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+dbus-daemon[1152]: [session uid=1000 pid=1152] Activating service name='org.freedesktop.systemd1' requested by ':1.6' (uid=1000 pid=1505 comm="/usr/bin/dbus-update-activation-environment --syst")
+dbus-daemon[1152]: [session uid=1000 pid=1152] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+<13> 2025-05-06T23:59:33.238Z javid Xvnc[1096]: Connections: authenticated: 172.20.10.2::61475 (TCP), as javid (f permissions)
+dbus-daemon[1152]: [session uid=1000 pid=1152] Activating service name='org.gtk.vfs.UDisks2VolumeMonitor' requested by ':1.9' (uid=1000 pid=1438 comm="pcmanfm --desktop --profile LXDE-pi")
+dbus-daemon[1152]: [session uid=1000 pid=1152] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+dbus-daemon[1152]: [session uid=1000 pid=1152] Activating service name='org.gtk.vfs.AfcVolumeMonitor' requested by ':1.9' (uid=1000 pid=1438 comm="pcmanfm --desktop --profile LXDE-pi")
+dbus-daemon[1152]: [session uid=1000 pid=1152] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+dbus-daemon[1152]: [session uid=1000 pid=1152] Activating service name='org.gtk.vfs.GoaVolumeMonitor' requested by ':1.9' (uid=1000 pid=1438 comm="pcmanfm --desktop --profile LXDE-pi")
+dbus-daemon[1152]: [session uid=1000 pid=1152] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+dbus-daemon[1152]: [session uid=1000 pid=1152] Activating service name='org.gtk.vfs.MTPVolumeMonitor' requested by ':1.9' (uid=1000 pid=1438 comm="pcmanfm --desktop --profile LXDE-pi")
+dbus-daemon[1152]: [session uid=1000 pid=1152] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+dbus-daemon[1152]: [session uid=1000 pid=1152] Activating service name='org.gtk.vfs.GPhoto2VolumeMonitor' requested by ':1.9' (uid=1000 pid=1438 comm="pcmanfm --desktop --profile LXDE-pi")
+dbus-daemon[1152]: [session uid=1000 pid=1152] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
   RANDR: bad size: 
-<13> 2025-05-06T23:56:23.657Z javid Xvnc[1119]: Connections: connected: 172.20.10.2::61463 (TCP)
-<13> 2025-05-06T23:56:25.015Z javid Xvnc[1119]: Connections: authenticated: 172.20.10.2::61463 (TCP), as javid (f permissions)
