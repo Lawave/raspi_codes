@@ -10,7 +10,7 @@ import socket
 import struct
 import math
 import RPi.GPIO as GPIO
-from bme_680 import get_bme280_data
+from bme280 import get_bme280_data
 from bno055_normal import get_bno055_data
 from gps import get_gps_data
 from picamera2 import Picamera2
@@ -20,9 +20,11 @@ from flask import Flask, Response
 import threading
 from kamera import start_video_server
 import pigpio
-from b_servo import turn_servo
+from servo_1 import turn_servo
 from buzzer import buzzer
 from multiprocessing import Process
+import csv
+import os
 
 #GPS Setup
 uart = serial.Serial("/dev/ttyS0", baudrate=9600, timeout=10)
@@ -42,9 +44,9 @@ bme280.sea_level_pressure= 1013.25
 #Servo Setup and Calculated Degrees
 servo = pigpio.pi()
 servo_pin = 13
-deg_1 = 0.2755
-deg_2 = 0.55
-deg_3 = 0.802
+deg_90 = 0.2755
+deg_180 = 0.55
+deg_270 = 0.802
 
 #Buzzer Setup
 buzzer_pin = 19
@@ -56,28 +58,67 @@ Starting camera with process
 It uses different core for camera
 It prevents camera to block other codes
 '''
-host = "0.0.0.0"
+host = "172.20.10.3"
 port = 5005
 video_process = Process(target=start_video_server, args=(host,port))
 video_process.start()
 
-count = 0
+#UDP Setup
+udp_ip = "172.20.10.2"
+udp_port = 5000
+udp_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+
+csv_file = "/home/mete/raspi_codes/sensor_data.csv"
+packet_number = 0
 check = 1
+
 while True:
     #Getting sensor datas
     temp,pres = get_bme280_data(bme280)
     yaw, roll, pitch = get_bno055_data(bno055)
-    gps_longitude, gps_latitude, gps_altitude, now = get_gps_data(gps)
+    gps_longitude, gps_latitude, gps_altitude, gps_time = get_gps_data(gps)
+    packet_number += 1
     
+    #Converting gps time to timestamp for UDP
+    gps_time_timestamp = gps_time.timestamp()
     print(f"Temp: {temp}, Pressure = {pres}\n")
     print(f"Yaw: {yaw}, Roll: {roll}, Pitch: {pitch}\n")
-    print(f"Longitude: {gps_longitude}, Latitude: {gps_latitude}, Altitude: {gps_altitude}, Time {now}\n\n")
+    print(f"Longitude: {gps_longitude}, Latitude: {gps_latitude}, Altitude: {gps_altitude}, Time {gps_time}\n\n")
     
-    if ((count > 10) and (check)):
-        turn_servo(deg_1,servo,servo_pin)
+    with open(csv_file, mode='w', newline='') as file:
+        file_writer = csv.writer(file)
+        file_writer.writerow([
+            packet_number,
+            gps_time_timestamp,
+            pres,
+            temp,
+            gps_latitude,
+            gps_longitude,
+            gps_altitude,
+            pitch,
+            roll,
+            yaw
+        ])
+    udp_data = struct.pack(
+            '>Hdffffffff',
+            packet_number,
+            gps_time_timestamp,
+            pres,
+            temp,
+            gps_latitude,
+            gps_longitude,
+            gps_altitude,
+            pitch,
+            roll,
+            yaw
+        )
+    udp_socket.sendto(udp_data, (udp_ip,udp_port))
+    if ((packet_number > 10) and (check)):
+        turn_servo(deg_90,servo,servo_pin)
         buzzer(buzzer_pin)
         check = 0
-    time.sleep(2)
-    count += 1
+    
+    time.sleep(1)
+
 
  
