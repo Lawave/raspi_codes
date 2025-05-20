@@ -68,7 +68,9 @@ udp_ip = "172.20.10.2"
 udp_port = 5000
 udp_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
-csv_file = "/home/mete/raspi_codes/sensor_data.csv"
+csv_file_road = "/home/mete/raspi_codes/sensor_data.csv"
+csv_file_reset = open("/home/mete/raspi_codes/sensor_data.csv", "w")
+csv_file_reset.close()
 packet_number = 0
 check = 1
 
@@ -85,7 +87,7 @@ while True:
     print(f"Yaw: {yaw}, Roll: {roll}, Pitch: {pitch}\n")
     print(f"Longitude: {gps_longitude}, Latitude: {gps_latitude}, Altitude: {gps_altitude}, Time {gps_time}\n\n")
     
-    with open(csv_file, mode='w', newline='') as file:
+    with open(csv_file_road, mode='a', newline='') as file:
         file_writer = csv.writer(file)
         file_writer.writerow([
             packet_number,
