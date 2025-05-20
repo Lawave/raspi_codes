@@ -3,15 +3,8 @@ import board
 import busio
 import adafruit_bno055
 
-i2c = busio.I2C(board.SCL, board.SDA)
+def get_bno055_data(bno055):
+    euler = bno055.euler
 
-sensor = adafruit_bno055.BNO055_I2C(i2c)
+    return euler[0], euler[1], euler[2]
 
-while True:
-    acceleration = sensor.acceleration  
-    magnetic = sensor.magnetic  
-    gyro = sensor.gyro  
-
-    print(f"Accel: {acceleration[0], {acceleration[1]}, {acceleration[2]}}")
-    print(f"Gyro: {gyro[0]},{gyro[1]},{gyro[2]}")
-    time.sleep(1)
