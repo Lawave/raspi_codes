@@ -25,6 +25,7 @@ from buzzer import buzzer
 from multiprocessing import Process
 import csv
 import os
+from save_sd_telemetry import csv_file_reset,csv_file_write
 
 #GPS Setup
 uart = serial.Serial("/dev/ttyS0", baudrate=9600, timeout=10)
@@ -68,45 +69,59 @@ udp_ip = "172.20.10.2"
 udp_port = 5000
 udp_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
-csv_file_road = "/home/mete/raspi_codes/sensor_data.csv"
-csv_file_reset = open("/home/mete/raspi_codes/sensor_data.csv", "w")
-csv_file_reset.close()
+
+
 packet_number = 0
 check = 1
 
+team_no = 3202951
+
+csv_file_reset()
+
 while True:
     #Getting sensor datas
-    temp,pres = get_bme280_data(bme280)
+    payload_temp,payload_pres = get_bme280_data(bme280)
     yaw, roll, pitch = get_bno055_data(bno055)
     gps_longitude, gps_latitude, gps_altitude, gps_time = get_gps_data(gps)
     packet_number += 1
     
-    #Converting gps time to timestamp for UDP
-    gps_time_timestamp = gps_time.timestamp()
-    print(f"Temp: {temp}, Pressure = {pres}\n")
+    print(f"Temp: {payload_temp}, Pressure = {payload_pres}\n")
     print(f"Yaw: {yaw}, Roll: {roll}, Pitch: {pitch}\n")
     print(f"Longitude: {gps_longitude}, Latitude: {gps_latitude}, Altitude: {gps_altitude}, Time {gps_time}\n\n")
     
-    with open(csv_file_road, mode='a', newline='') as file:
-        file_writer = csv.writer(file)
-        file_writer.writerow([
-            packet_number,
-            gps_time_timestamp,
-            pres,
-            temp,
-            gps_latitude,
-            gps_longitude,
-            gps_altitude,
-            pitch,
-            roll,
-            yaw
-        ])
+    telemetry_data = {
+        packet_number,
+        None, #Satellite status it will add later
+        None, #Error Code it will add later
+        gps_time,
+        payload_pres,
+        None, #Carrier Pressure it will add later
+        None, #Payload altitude it will add later
+        None, #Carrier altitude it will add later
+        None, #Altitude diff it will add later
+        None, #Descent Velocity it will add later
+        payload_temp,
+        None, #Battery Voltage it will add later
+        gps_latitude,
+        gps_longitude,
+        gps_altitude,
+        pitch,
+        roll,
+        yaw,
+        None, #RHRH it will add later
+        None, #IoT temp 1 data it will add later
+        None, #IoT temp 2 data it will add later
+        team_no
+        }
+    
+    csv_file_write(telemetry_data)
+    
     udp_data = struct.pack(
             '>Hdffffffff',
             packet_number,
-            gps_time_timestamp,
-            pres,
-            temp,
+            gps_time,
+            payload_pres,
+            payload_temp,
             gps_latitude,
             gps_longitude,
             gps_altitude,

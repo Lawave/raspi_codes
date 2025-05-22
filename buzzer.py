@@ -8,3 +8,6 @@ def buzzer(buzzer_pin):
     time.sleep(1)
     GPIO.output(buzzer_pin, GPIO.HIGH)
     GPIO.cleanup()
+    
+buzzer(19)
+

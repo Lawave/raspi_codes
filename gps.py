@@ -7,7 +7,8 @@ import RPi.GPIO as GPIO
 
 def get_gps_data(gps):
     now = datetime.datetime.now()
-    now_ = now.replace(microsecond=0) 
+    now_ = now.replace(microsecond=0)
+    gps_time_send = now_.timestamp()
     gps.update()
     gps_has_fix = gps.has_fix
     
@@ -21,4 +22,4 @@ def get_gps_data(gps):
         gps_latitude = float(gps.latitude)
         gps_altitude = float(gps.altitude_m)
 
-    return gps_longitude, gps_latitude, gps_altitude, now_
+    return gps_longitude, gps_latitude, gps_altitude, gps_time_send
