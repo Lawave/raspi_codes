@@ -80,37 +80,37 @@ csv_file_reset()
 
 while True:
     #Getting sensor datas
-    payload_temp,payload_pres = get_bme280_data(bme280)
+    payload_temp,payload_pres, payload_pres_altitude = get_bme280_data(bme280)
     yaw, roll, pitch = get_bno055_data(bno055)
     gps_longitude, gps_latitude, gps_altitude, gps_time = get_gps_data(gps)
     packet_number += 1
     
-    print(f"Temp: {payload_temp}, Pressure = {payload_pres}\n")
+    print(f"Temp: {payload_temp}, Pressure = {payload_pres} Pressure Altitude = {payload_pres_altitude} \n")
     print(f"Yaw: {yaw}, Roll: {roll}, Pitch: {pitch}\n")
     print(f"Longitude: {gps_longitude}, Latitude: {gps_latitude}, Altitude: {gps_altitude}, Time {gps_time}\n\n")
     
     telemetry_data = {
         packet_number,
-        0, #Satellite status it will add later
-        0, #Error Code it will add later
+        1, #Satellite status it will add later
+        1, #Error Code it will add later
         gps_time,
         payload_pres,
-        0, #Carrier Pressure it will add later
-        0, #Payload altitude it will add later
-        0, #Carrier altitude it will add later
-        0, #Altitude diff it will add later
-        0, #Descent Velocity it will add later
+        1, #Carrier Pressure it will add later
+        payload_pres_altitude, 
+        1, #Carrier altitude it will add later
+        1, #Altitude diff it will add later
+        1, #Descent Velocity it will add later
         payload_temp,
-        None, #Battery Voltage it will add later
+        1, #Battery Voltage it will add later
         gps_latitude,
         gps_longitude,
         gps_altitude,
         pitch,
         roll,
         yaw,
-        0, #RHRH it will add later
-        0, #IoT temp 1 data it will add later
-        0, #IoT temp 2 data it will add later
+        1, #RHRH it will add later
+        1, #IoT temp 1 data it will add later
+        1, #IoT temp 2 data it will add later
         team_no
         }
     
