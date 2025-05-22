@@ -9,5 +9,5 @@ def buzzer(buzzer_pin):
     GPIO.output(buzzer_pin, GPIO.HIGH)
     GPIO.cleanup()
     
-buzzer(19)
+
 

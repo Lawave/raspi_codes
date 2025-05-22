@@ -13,9 +13,9 @@ def get_gps_data(gps):
     gps_has_fix = gps.has_fix
     
     if gps_has_fix == False:
-        gps_altitude  = 0.0
-        gps_longitude   = 0.0
-        gps_latitude    = 0.0
+        gps_altitude  = -1.0
+        gps_longitude   = -1.0
+        gps_latitude    = -1.0
     
     else:
         gps_longitude = float(gps.longitude)

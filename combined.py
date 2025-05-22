@@ -91,26 +91,26 @@ while True:
     
     telemetry_data = {
         packet_number,
-        1, #Satellite status it will add later
-        1, #Error Code it will add later
+        "NULL", #Satellite status it will add later
+        "NULL", #Error Code it will add later
         gps_time,
         payload_pres,
-        1, #Carrier Pressure it will add later
+        "NULL", #Carrier Pressure it will add later
         payload_pres_altitude, 
-        1, #Carrier altitude it will add later
-        1, #Altitude diff it will add later
-        1, #Descent Velocity it will add later
+        "NULL", #Carrier altitude it will add later
+        "NULL", #Altitude diff it will add later
+        "NULL", #Descent Velocity it will add later
         payload_temp,
-        1, #Battery Voltage it will add later
+        "NULL", #Battery Voltage it will add later
         gps_latitude,
         gps_longitude,
         gps_altitude,
         pitch,
         roll,
         yaw,
-        1, #RHRH it will add later
-        1, #IoT temp 1 data it will add later
-        1, #IoT temp 2 data it will add later
+        "NULL", #RHRH it will add later
+        "NULL", #IoT temp 1 data it will add later
+        "NULL", #IoT temp 2 data it will add later
         team_no
         }
     
