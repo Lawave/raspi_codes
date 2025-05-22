@@ -91,15 +91,15 @@ while True:
     
     telemetry_data = {
         packet_number,
-        None, #Satellite status it will add later
-        None, #Error Code it will add later
+        0, #Satellite status it will add later
+        0, #Error Code it will add later
         gps_time,
         payload_pres,
-        None, #Carrier Pressure it will add later
-        None, #Payload altitude it will add later
-        None, #Carrier altitude it will add later
-        None, #Altitude diff it will add later
-        None, #Descent Velocity it will add later
+        0, #Carrier Pressure it will add later
+        0, #Payload altitude it will add later
+        0, #Carrier altitude it will add later
+        0, #Altitude diff it will add later
+        0, #Descent Velocity it will add later
         payload_temp,
         None, #Battery Voltage it will add later
         gps_latitude,
@@ -108,9 +108,9 @@ while True:
         pitch,
         roll,
         yaw,
-        None, #RHRH it will add later
-        None, #IoT temp 1 data it will add later
-        None, #IoT temp 2 data it will add later
+        0, #RHRH it will add later
+        0, #IoT temp 1 data it will add later
+        0, #IoT temp 2 data it will add later
         team_no
         }
     
