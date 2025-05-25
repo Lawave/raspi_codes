@@ -10,4 +10,3 @@ def buzzer(buzzer_pin):
     GPIO.cleanup()
     
 
-

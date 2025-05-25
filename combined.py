@@ -26,6 +26,7 @@ from multiprocessing import Process
 import csv
 import os
 from save_sd_telemetry import csv_file_reset,csv_file_write
+from udp_send_telemetry import send_telemetry_udp
 
 #GPS Setup
 uart = serial.Serial("/dev/ttyS0", baudrate=9600, timeout=10)
@@ -65,11 +66,9 @@ video_process = Process(target=start_video_server, args=(host,port))
 video_process.start()
 
 #UDP Setup
-udp_ip = "172.20.10.2"
-udp_port = 5000
-udp_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-
-
+udp_send_telemetry_ip = "172.20.10.4"
+udp_send_telemetry_port = 5000
+udp_send_telemetry_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
 packet_number = 0
 check = 1
@@ -89,52 +88,37 @@ while True:
     print(f"Yaw: {yaw}, Roll: {roll}, Pitch: {pitch}\n")
     print(f"Longitude: {gps_longitude}, Latitude: {gps_latitude}, Altitude: {gps_altitude}, Time {gps_time}\n\n")
     
-    telemetry_data = {
+    telemetry_data = [
         packet_number,
-        "NULL", #Satellite status it will add later
-        "NULL", #Error Code it will add later
+        None, #Satellite status it will add later
+        None, #Error Code it will add later
         gps_time,
         payload_pres,
-        "NULL", #Carrier Pressure it will add later
+        None, #Carrier Pressure it will add later
         payload_pres_altitude, 
-        "NULL", #Carrier altitude it will add later
-        "NULL", #Altitude diff it will add later
-        "NULL", #Descent Velocity it will add later
+        None, #Carrier altitude it will add later
+        None, #Altitude diff it will add later
+        None, #Descent Velocity it will add later
         payload_temp,
-        "NULL", #Battery Voltage it will add later
+        None, #Battery Voltage it will add later
         gps_latitude,
         gps_longitude,
         gps_altitude,
         pitch,
         roll,
         yaw,
-        "NULL", #RHRH it will add later
-        "NULL", #IoT temp 1 data it will add later
-        "NULL", #IoT temp 2 data it will add later
+        None, #RHRH it will add later
+        None, #IoT temp 1 data it will add later
+        None, #IoT temp 2 data it will add later
         team_no
-        }
+        ]
     
     csv_file_write(telemetry_data)
     
-    udp_data = struct.pack(
-            '>Hdffffffff',
-            packet_number,
-            gps_time,
-            payload_pres,
-            payload_temp,
-            gps_latitude,
-            gps_longitude,
-            gps_altitude,
-            pitch,
-            roll,
-            yaw
-        )
-    udp_socket.sendto(udp_data, (udp_ip,udp_port))
-    if ((packet_number > 10) and (check)):
-        turn_servo(deg_90,servo,servo_pin)
-        buzzer(buzzer_pin)
-        check = 0
-    
+    send_telemetry_udp(udp_send_telemetry_ip,
+                       udp_send_telemetry_port,
+                       udp_send_telemetry_socket,
+                       telemetry_data)
     time.sleep(1)
 
 
