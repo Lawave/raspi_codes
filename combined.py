@@ -78,6 +78,8 @@ team_no = 3202951
 csv_file_reset()
 
 while True:
+    
+    timer_start = time.time()
     #Getting sensor datas
     payload_temp,payload_pres, payload_pres_altitude = get_bme280_data(bme280)
     yaw, roll, pitch = get_bno055_data(bno055)
@@ -119,7 +121,10 @@ while True:
                        udp_send_telemetry_port,
                        udp_send_telemetry_socket,
                        telemetry_data)
-    time.sleep(1)
+    
+    timer_end = time.time()
+    timer_result = timer_end - timer_start
+    time.sleep(1 - timer_result)
 
 
  
